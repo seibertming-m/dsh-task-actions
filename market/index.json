@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Mingbaile's DSH Plugins",
+    "zh": "明白了的 DSH 插件"
+  },
+  "description": {
+    "en": "Small, focused plugins for the DeepSeek Harness sidebar.",
+    "zh": "给 DSH 侧栏补上顺手的小功能。"
+  },
+  "metadata": {
+    "categories": {
+      "workspace": {
+        "title": {
+          "en": "Workspace",
+          "zh": "工作区"
+        }
+      },
+      "productivity": {
+        "title": {
+          "en": "Productivity",
+          "zh": "效率"
+        }
+      }
+    },
+    "labels": {
+      "sidebar": {
+        "title": {
+          "en": "Sidebar",
+          "zh": "侧栏"
+        }
+      },
+      "session-management": {
+        "title": {
+          "en": "Task management",
+          "zh": "任务管理"
+        }
+      }
+    },
+    "sortKeys": {
+      "published": {
+        "title": {
+          "en": "Published",
+          "zh": "发布时间"
+        },
+        "order": "desc"
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-task-actions",
+      "title": {
+        "en": "Task Actions",
+        "zh": "任务管理增强"
+      },
+      "description": {
+        "en": "Delete a task or move it to another workspace straight from the sidebar.",
+        "zh": "在侧栏直接删除任务，或把任务移动到其他空间。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJUYXNrIEFjdGlvbnMiPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSIjNEQ2QkZFIi8+CiAgPGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjRkZGRkZGIiBzdHJva2Utd2lkdGg9IjMuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj4KICAgIDxwYXRoIGQ9Ik0xOCAxOWgyMk0xOCAzMGgxNk0xOCA0MWgxMSIvPgogICAgPHBhdGggZD0iTTM5IDQ3LjVsMy4yLjguOCAzLjIgOS4yLTkuMi00LTQtOS4yIDkuMnoiLz4KICAgIDxwYXRoIGQ9Ik00My42IDM3LjZsNCA0Ii8+CiAgPC9nPgo8L3N2Zz4K",
+      "author": "明白了",
+      "metadata": {
+        "category": "workspace",
+        "keywords": [
+          "session",
+          "task",
+          "workspace",
+          "delete",
+          "move",
+          "sidebar"
+        ],
+        "labels": [
+          "sidebar",
+          "session-management"
+        ],
+        "sortKeys": {
+          "published": 1793185323
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793185323,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/seibertming-m/dsh-task-actions",
+            "commit": "549eca1c01235f087217bc0f395b127a035ed167"
+          },
+          "engines": {
+            "dsh": "^0.2.0"
+          }
+        }
+      ]
+    }
+  ]
+}
