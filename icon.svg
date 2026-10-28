@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Task Actions">
+  <rect width="64" height="64" rx="14" fill="#4D6BFE"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 19h22M18 30h16M18 41h11"/>
+    <path d="M39 47.5l3.2.8.8 3.2 9.2-9.2-4-4-9.2 9.2z"/>
+    <path d="M43.6 37.6l4 4"/>
+  </g>
+</svg>

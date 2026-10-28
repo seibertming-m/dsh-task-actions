@@ -1,0 +1,7 @@
+# dsh-task-actions bundle patch
+#
+# Mounted through `dsh.bundle.patch` (or the profile's cordis.patch.yml).
+# The bare package name row lets dsh-client-modules attach ./client.
+- insert:
+    - id: task-actions
+      name: 'dsh-task-actions'

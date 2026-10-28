@@ -1,0 +1,54 @@
+{
+  "name": "dsh-task-actions",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Delete a DSH sidebar task or move it to another workspace.",
+  "author": "明白了",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.svg",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "task",
+    "session",
+    "workspace",
+    "sidebar",
+    "session-management"
+  ],
+  "engines": {
+    "node": ">=24",
+    "dsh": "^0.2.0"
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "locale/en.json",
+    "locale/zh.json",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "manifestVersion": 1,
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
