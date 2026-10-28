@@ -42,6 +42,15 @@ dsh plugin --profile desktop add "file:D:/path/to/dsh-task-actions"
 
 安装后刷新页面一次，插件才会进入浏览器模块图。
 
+## 发布状态（2026-10-28）
+
+- **仓库**：<https://github.com/seibertming-m/dsh-task-actions>
+- **市场索引**：<https://cdn.jsdelivr.net/gh/seibertming-m/dsh-task-actions@1b4b90dcda242c662c3716de6530ed8cc67070a0/market/index.json>
+- **作者**：明白了 · **版本**：0.1.0 · **安装源**：git @ `549eca1`
+
+> 国内网络下 `raw.githubusercontent.com` 的 DNS 会被污染（解析到非公网地址），
+> 所以索引走 jsDelivr 的固定 commit 地址；升级时换成新的 commit 即可。
+
 ## 安全边界
 
 - **删除不是永久删除。** 文件进入 DSH 回收站，目录结构完整保留；把它搬回
